@@ -1,6 +1,6 @@
 public class prime{
     public static void main(String[] args) {
-        int num=10,c=0,f=0;
+        int num=12,c=0,f=0;
         for(int i=1;i<num;i++)
         {
             if(num%i==0)
@@ -12,8 +12,8 @@ public class prime{
             }
         }
         if(f==1)
-        System.out.print("not prime");
+        System.out.print("the given number is not prime");
         else
-        System.out.print("prime");
+        System.out.print("the given number is prime");
     }
 }
