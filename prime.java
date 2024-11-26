@@ -1,4 +1,4 @@
-public class Main{
+public class Prime{
     public static void main(String[] args) {
         int num=5,c=0,f=0;
         for(int i=1;i<num;i++)
